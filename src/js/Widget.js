@@ -1,3 +1,6 @@
+/* eslint-disable class-methods-use-this */
+/* eslint-disable no-tabs */
+
 export default class Widget {
   createCollapse() {
     const container = document.getElementById('widget');
