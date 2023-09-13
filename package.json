@@ -1,11 +1,11 @@
-{
+
+    "webpack-dev-server": "^4.15.1",{
   "name": "animation",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "serve": "live-server src",
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack --mode development",
     "test": "jest",
     "lint": "eslint .",
     "build": "webpack --mode production",
@@ -39,7 +39,6 @@
     "puppeteer": "^21.2.1",
     "url-loader": "^4.1.1",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1",
     "webpack-merge": "^5.9.0"
   },
   "dependencies": {
