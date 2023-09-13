@@ -1,9 +1,8 @@
-
-    "webpack-dev-server": "^4.15.1",{
+{
   "name": "animation",
   "version": "1.0.0",
   "description": "",
-  "main": "webpack.config.js",
+  "main": "index.js",
   "scripts": {
     "start": "webpack --mode development",
     "test": "jest",
